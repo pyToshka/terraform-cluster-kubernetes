@@ -1,0 +1,9 @@
+# virtualenv
+venv/
+ENV/
+*.tfstate
+*.tfstate.backup
+.idea/*
+*.iws
+.terraform/
+/templates/*
