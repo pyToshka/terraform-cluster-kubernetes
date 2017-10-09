@@ -8,7 +8,7 @@ variable "provider" {
 }
 
 variable "aws_key_name" {
-  default = "air"
+  default = "name_of_your_ssh_key"
 }
 
 variable "images" {
@@ -110,4 +110,8 @@ variable "ntp_servers" {
   type        = "list"
   description = "List of NTP servers to configure"
   default     = []
+}
+variable "private_key" {
+  type = "string"
+  default = "add_your_private_ssh_key"
 }

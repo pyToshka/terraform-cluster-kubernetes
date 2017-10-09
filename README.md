@@ -7,9 +7,9 @@ A terraform module for provisioning AWS resources (VMs, VPC, route table etc) fo
 To use:
 
 ```shell
-git clone this repo
-cd erraform-kubernetes
-change Your vars in variables.tf
+git clone --recursive https://github.com/pyToshka/terraform-kubernetes
+cd terraform-kubernetes
+Add your vars to variables.tf
 Don't forget change this
 variable "provider" {
     type = "map"
@@ -23,3 +23,23 @@ terraformt init
 terraform plan
 terraform apply
 ```
+### Howto deploy cluster?
+```shell
+git clone --recursive https://github.com/pyToshka/terraform-kubernetes
+cd terraform-kubernetes
+add your vars to variables.tf
+
+
+```
+
+For building stack run
+
+```shell
+
+./clister.sh
+
+```
+
+Terraform Graph
+
+![Alt text](graph.png "Terraform graph")
