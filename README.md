@@ -7,7 +7,7 @@ A terraform module for provisioning AWS resources (VMs, VPC, route table etc) fo
 To use:
 
 ```shell
-git clone --recursive https://github.com/pyToshka/terraform-kubernetes
+git clone --recursive https://github.com/pyToshka/terraform-cluster-kubernetes
 cd terraform-kubernetes
 Add your vars to variables.tf
 Don't forget change this
@@ -25,7 +25,7 @@ terraform apply
 ```
 ### Howto deploy cluster?
 ```shell
-git clone --recursive https://github.com/pyToshka/terraform-kubernetes
+git clone --recursive https://github.com/pyToshka/terraform-cluster-kubernetes
 cd terraform-kubernetes
 add your vars to variables.tf
 
